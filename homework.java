@@ -3,16 +3,33 @@ import java.util.Scanner;
 public class homework {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("what is the cost of pencil: ");
-        float pencil = sc.nextFloat();
-        System.out.println("what is the cost of pen: ");
-        float pen = sc.nextFloat();
-        System.out.println("what is the cost of eraser: ");
-        float eraser = sc.nextFloat();
-        float p = (pencil + pencil * 18/100) + (pen + pen * 18/100) + (eraser + eraser * 18/100);
-        System.out.println("your total is: ");
-        System.out.println(p);
+        System.out.println("provide the number : ");
+        int number = sc.nextInt();
+        if(number >= 0) {
+            System.out.println("positive");
+        }
+        else {
+            System.out.println("negative");
+        }
+        
+        int week = sc.nextInt();
+        switch (week) {
+            case 1 : System.out.println("sunday");
+            break;
+            case 2 : System.out.println("sunday");
+            break;
+            case 3 : System.out.println("sunday");
+            break;
+            case 4 : System.out.println("sunday");
+            break;
+            case 5 : System.out.println("sunday");
+            break;
+            case 6 : System.out.println("sunday");
+            break;
+            case 7 : System.out.println("sunday");
+            
 
-
+        } 
+        
     }
 }
