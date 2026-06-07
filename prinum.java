@@ -8,7 +8,6 @@ public class prinum {
         if(n < 2) {
             System.out.println("not prime");
         }
-        else {
             for(int i = n-1; i > 1; i--) {
             if(n % i == 0) {
                 isprime = false;
@@ -26,4 +25,4 @@ public class prinum {
         
         
     }
-}    
+    
