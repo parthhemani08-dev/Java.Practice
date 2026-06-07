@@ -11,6 +11,7 @@ public class prinum {
             for(int i = n-1; i > 1; i--) {
             if(n % i == 0) {
                 isprime = false;
+                break;
             } 
         }
         if(isprime) {
