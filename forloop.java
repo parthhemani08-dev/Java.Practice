@@ -9,6 +9,6 @@ public class forloop {
         }
 
 
-        for(ch)
+        
     }
 }    
