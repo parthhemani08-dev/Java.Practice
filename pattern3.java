@@ -11,6 +11,6 @@ public class pattern3 {
         }
     }
     public static void main(String arg[]) {
-        inverted_pyramid(4, 4);
+        inverted_pyramid(6, 6);
     }
 }
