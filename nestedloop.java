@@ -20,6 +20,5 @@ public class nestedloop {
             }
             System.out.println();
         }
-
     }
 }
