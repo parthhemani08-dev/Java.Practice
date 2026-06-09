@@ -1,17 +1,16 @@
-import java.util.Scanner;
-
 public class pattern3 {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-    for(int row = 1; row <= 4; row++) {
-        for(int col = 1; col <= 4 - row; col++ ) {
-            System.out.print(" ");
+    public static void inverted_pyramid(int rows, int cols) {
+        for(int row = 1; row <= rows; row++) {
+            for(int col = 1; col <= rows - row; col++ ) {
+                System.out.print(" ");
+            } 
+            for(int col = 1; col <= row; col++) {
+                System.out.print('*');
+            }
+        System.out.println();
         }
-        for(int col = 1; col <= row; col++) {
-            System.out.print('*');
-
-        }
-    System.out.println();    
     }
-    }    
+    public static void main(String arg[]) {
+        inverted_pyramid(4, 4);
+    }
 }
