@@ -2,10 +2,12 @@ import java.util.Scanner;
 
 public class sixth {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        float a = 5;
-        int b = a;
-        System.out.println(b);
+        for(int row =5; row >= 1; row--) {
+            for(int col = 1; col <= row; col++) {
+                System.out.print(col);
+            }
+        System.out.println();    
+        }
 
 
     }
