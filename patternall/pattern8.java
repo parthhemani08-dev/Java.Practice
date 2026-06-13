@@ -1,3 +1,4 @@
+package patternall;
 public class pattern8 {
      public static void main(String args[]) {
         for(int row = 1; row <= 5; row++) {

@@ -1,3 +1,4 @@
+package patternall;
 public class pattern3 {
     public static void inverted_pyramid(int rows, int cols) {
         for(int row = 1; row <= rows; row++) {

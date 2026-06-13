@@ -1,3 +1,4 @@
+package patternall;
 public class pattern4 {
     public static void pyramid_number(int rows, int cols) {
         for(int row = 1; row <= rows; row++) {

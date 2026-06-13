@@ -1,3 +1,4 @@
+package patternall;
 public class pattern5 {
     public static void floyd_triangle(int rows) {
         int count = 1;
