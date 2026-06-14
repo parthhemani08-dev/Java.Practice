@@ -1,4 +1,4 @@
-package patternall;
+package patterns;
 public class pattern7 {
     public static void main(String args[]) {
         for(int row = 1; row <= 4; row++) {

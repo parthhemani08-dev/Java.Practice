@@ -1,4 +1,4 @@
-package patternall;
+package patterns;
 public class pattern2 {
     public static void hollow_rectangle(int rows, int cols) {
         for(int row = 1; row <= rows; row++) {

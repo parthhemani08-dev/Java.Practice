@@ -1,4 +1,4 @@
-package patternall;
+package patterns;
 public class pattern6 {
     public static void main(String args[]) {
         int num = 1;
